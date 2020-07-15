@@ -69,4 +69,20 @@ function render() {
     messages.textContent = win === 'T' ? `That's a tie, queen!` : win ? `${win} wins the game!` : `It's ${turn}'s turn!`;
 };
 
+// var x = 100;
+// function test() {
+//     if (false) {
+//         var x = 199;
+//     }
+//     console.log(x);
+// }
+// test();
+
+function test() {
+    console.log(1);
+    setTimeout(() => { console.log(2) }, 1000);
+    setTimeout(() => { console.log(3) }, 0);
+    console.log(4);
+};
+test();
 initBoard();
